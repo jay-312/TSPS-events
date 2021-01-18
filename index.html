@@ -1,18 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
 
     <!-- Icon -->
-    <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon" />
+    <link rel="icon" href="./images/logo.ico" type="image" />
 
-    <!-- StyleSheet -->
-    <link rel="stylesheet" href="styles.css" />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- <script src="./script.js"></script> -->
+  </head>
 
-    <title>Events</title>
-</head>
-<body>
+  <body>
+    <nav style="z-index: 55">
+      <ul>
+        <li class="logo">
+          <img
+            style="height: 50px; width: 50px; padding-top: -20px"
+            src="./images/navicon.png"
+          />
+        </li>
+        <li class="items">
+          <a href="index.html#home" style="text-decoration: none">Home</a>
+        </li>
+        <li class="items">
+          <a href="index.html#about" style="text-decoration: none">About us</a>
+        </li>
+        <li class="items">
+          <a href="index.html#event" style="text-decoration: none">Events</a>
+        </li>
+        <li class="items">
+          <a href="index.html#podcast" style="text-decoration: none"
+            >Podcasts</a
+          >
+        </li>
+        <li class="items">
+          <a href="#" style="text-decoration: none">Blog</a>
+        </li>
+        <li class="items">
+          <a href="index.html#footer" style="text-decoration: none"
+            >Contact us</a
+          >
+        </li>
+        <li class="btn">
+          <a href="#"><i class="fas fa-bars"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="topshows">
+      <div class="shows-det1">
+        <p id="thirteen">13</p>
+        <p id="showsdone">Shows done so far</p>
+      </div>
+
+      <div class="up-title">
+        <p class="up-tit">Upcoming Shows</p>
+        <img
+          class="up-img"
+          src="https://opidesign.net/wp-content/uploads/landscape-architecture-fun-facts-outside-productions-blog.jpg"
+          alt=""
+        />
+        <div class="btn1">
+          <div class="wrapper">
+            <div class="container flex-grow">
+              <input
+                type="radio"
+                id="cash"
+                value="cash"
+                name="payement-mode"
+                onchange="setPaymentMode('cash')"
+                checked
+              />
+              <label for="cash">
+                <span> <i class="fa fa-money-bill mr-1"></i> Know More</span>
+              </label>
+
+              <input
+                type="radio"
+                name="payement-mode"
+                id="card"
+                value="card"
+                onchange="setPaymentMode('card')"
+              />
+              <label for="card">
+                <span> <i class="fa fa-money-check mr-1"></i> Book Now</span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quote">
+      <p class="time">Time Flies when you're having fun!</p>
+      <p class="relax">
+        Relax, unwind and explore fantastic shows from the past.
+      </p>
+    </div>
+
+
+
+    <!--  -->
+
+    <!-- Events (jay) -->
+
+    <section class="even-event unmute2">
+      <h1>Unmute 2.0</h1>
+      <div class="content">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt
+          ornare massa eget egestas purus viverra. Nulla facilisi morbi tempus
+          iaculis urna id. Auctor eu augue ut lectus arcu bibendum at. Arcu odio
+          sem nulla pharetra diam sit. Purus sit amet volutpat consequat mauris
+          nunc. Tincidunt ornare massa eget egestas purus.
+        </p>
+
+        <div class="img-box">
+          <img src="./images/event2.png" alt="Unmute 2.0" />
+        </div>
+
+        <div class="quote-box">
+          <p>"Best show in the world"</p>
+          <h4>-By Anonymous</h4>
+        </div>
+
+        <button>Check it out</button>
+      </div>
+      
+    </section>
+
+    <h1>Unmute</h1>
     
-</body>
+  </body>
 </html>
