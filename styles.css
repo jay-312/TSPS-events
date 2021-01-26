@@ -333,8 +333,9 @@ nav ul li.btn.hide i:before {
   top: 4180px;
 }
 
-@media only screen and (max-width:900px){
+@media only screen and (max-width: 860px) {
   .Ellipse22 {
+    display: none;
     position: absolute;
     width: 250px;
     height: 250px;
@@ -351,25 +352,24 @@ nav ul li.btn.hide i:before {
   .Ellipse24 {
     position: absolute;
     width: 300px;
-  height: 300px;
-  left: 350px;
+    height: 300px;
+    left: 350px;
     top: 4636px;
   }
   .Ellipse25 {
     position: absolute;
     width: 250px;
-  height: 250px;
-  right: -40px;
-    top: 5200px;
+    height: 250px;
+    right: 0px;
+    top: 5100px;
   }
 }
 
-@media only screen and (max-width:760px){
+@media only screen and (max-width: 760px) {
   .Ellipse {
     display: none;
   }
 }
-
 
 /* Show Bar */
 
